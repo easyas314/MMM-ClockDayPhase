@@ -37,3 +37,5 @@ The following properties can be configured:
 | `showWeek`        | Turn off or on the Week section. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `false`
 | `dateFormat`      | Configure the date format as you like. <br><br> **Possible values:** [Docs](http://momentjs.com/docs/#/displaying/format/) <br> **Default value:** `"dddd, LL"`
 | `timezone`        | Specific timezone for the time on the clock. <br><br> **Possible examples values:** `America/New_York`, `America/Santiago`, `Etc/GMT+10` <br> **Default value:** `none`. See more information about configuration values [here](https://momentjs.com/timezone/docs/#/data-formats/packed-format/)
+| `hoursPhase`      | A list of 24 elements which associates each of the hours in a day, 0-23, with a 'phase-id'
+| `phaseText`       | A set of phase-ids and display text for each of the phase-id defined by the hoursPhase property
