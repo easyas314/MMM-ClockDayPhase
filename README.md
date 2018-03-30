@@ -6,6 +6,9 @@ MIT Licensed.
 This module was designed to address specific cognitive disabilities which impact correct interpretation of the time-of-day.  
 Specifically, this module displays the current date, time, and a customizable descriptor for the 'phase' of the day; i.e. "morning", "afternoon", etc.  It does not offer an analog clock representation.
 
+   ![image](https://user-images.githubusercontent.com/30437725/38146320-7ce83fea-341b-11e8-80aa-9e1ff51157e9.png)
+
+
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
