@@ -55,10 +55,10 @@ Module.register("MMM-ClockDayPhase",{
 	getScripts: function() {
 		return ["moment.js", "moment-timezone.js"];
 	},
-	// Define styles.
-	getStyles: function() {
-		return ["MMM-ClockDayPhase_styles.css"];
-	},
+	//	Define styles.
+//	getStyles: function() {
+//		return ["MMM-ClockDayPhase_styles.css"];
+//	},
 	// Define start sequence.
 	start: function() {
 		Log.info("Starting module: " + this.name);
